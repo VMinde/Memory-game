@@ -1,4 +1,4 @@
-package lt.viko.eif.mvirsilas.memorygame;
+package lt.viko.eif.mvirsilas.memorygameold;
 
 
 import javax.swing.*;
@@ -140,7 +140,7 @@ public class MemoryGame {
 
         for (int i = 0; i < 4; i++){
             for (int j = 0; j < 4; j++){
-            buttons[i][j].setText("");
+                buttons[i][j].setText("");
             }
         }
         firstButton = null;
